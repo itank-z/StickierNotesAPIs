@@ -1,0 +1,14 @@
+{
+  "name": "stickier_notes",
+  "version": "1.0.0",
+  "description": "APIs for stickier notes app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ankit Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
