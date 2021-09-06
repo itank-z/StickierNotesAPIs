@@ -11,7 +11,7 @@ app.get('/health', (req, res) => {
 
 app.get('/fetch', (req, res) => {
     Users.fetch()
-        .then((data) => {
+        .then(data => {
             res.send({
                 data,
             }).status(200);
@@ -32,7 +32,7 @@ const connectDB = async () => {
 }
 
 connectDB()
-    .then((result) => {
+    .then(result => {
         console.log('Successfully connected to db');
         app.listen(port, () => {
             console.log(`App listening on port ${port}`);
